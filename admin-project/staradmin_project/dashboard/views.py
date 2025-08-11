@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'dashboard/index.html')
+
+def leads_view(request):
+    return render(request, 'dashboard/leads.html')
+
